@@ -1,0 +1,10 @@
+.blogContent {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-background-dark);
+  padding: 10vh 15vw;
+}
+
+.blogContent * {
+  color: var(--color-text-light);
+}

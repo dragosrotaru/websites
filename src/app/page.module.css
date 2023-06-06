@@ -1,0 +1,60 @@
+/* Above the fold */
+
+.aboveTheFold {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-background-dark);
+  min-height: 600px;
+  max-width: 600px;
+  padding-top: 35vh;
+  padding-right: 10vw;
+  padding-bottom: 10vh;
+  padding-left: 10vw;
+}
+
+.aboveTheFold h1 {
+  color: var(--color-text-light);
+}
+
+.aboveTheFold h1,
+.aboveTheFold h1 span {
+  font-family: "IBM Plex Sans", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  z-index: 1;
+}
+
+/* Content */
+
+.outerSlantUp {
+  margin-top: -20vh;
+  padding-top: 20vh;
+  background-color: var(--color-background-light);
+  -webkit-transform: skewY(-8deg);
+  -ms-transform: skewY(-8deg);
+  transform: skewY(-8deg);
+}
+.innerSlantUp {
+  -webkit-transform: skewY(8deg);
+  -ms-transform: skewY(8deg);
+  transform: skewY(8deg);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.innerSlantUp section {
+  padding: 0 0 5vh 0;
+  width: 50vw;
+  max-width: 700px;
+  margin: auto;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 900px) {
+  .innerSlantUp h1,
+  .innerSlantUp h2,
+  .innerSlantUp h3 {
+    text-align: center;
+  }
+}

@@ -1,0 +1,147 @@
+:root {
+  --color-text-dark: #282828;
+  --color-text-medium: grey;
+  --color-text-light: white;
+  --color-background-light: rgb(253, 253, 250);
+  --color-background-dark: #1f1e1e;
+  --color-highlight-blue: #0087ff;
+  --color-highlight-purple: #e262fc;
+  --color-highlight-yellow: #feca00;
+  --color-highlight-red: #fd0505;
+}
+
+body {
+  font-size: 12px;
+  margin: 0;
+  background: var(--color-background-dark);
+}
+
+* {
+  line-height: 1.5;
+  color: var(--color-text-dark);
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: "IBM Plex Mono", monospace;
+  font-family: "Heebo", Arial, Helvetica, sans-serif;
+  font-family: "IBM Plex Serif", serif;
+  font-family: "IBM Plex Sans Condensed", Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: var(--color-text-black);
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.6rem;
+}
+p,
+ol {
+  font-size: 1.2rem;
+}
+
+ul {
+  text-align: left;
+  font-size: 1.2rem;
+  line-height: 2em;
+  list-style: none;
+}
+
+.list {
+  text-align: center;
+}
+
+.redText {
+  color: var(--color-highlight-red);
+}
+.yellowText {
+  color: var(--color-highlight-yellow);
+}
+.blueText {
+  color: var(--color-highlight-blue);
+}
+.purpleText {
+  color: var(--color-highlight-purple);
+}
+
+.redBackground {
+  background-color: var(--color-highlight-red);
+}
+.yellowBackground {
+  background-color: var(--color-highlight-yellow);
+  color: var(--color-text-dark) !important;
+}
+.blueBackground {
+  background-color: var(--color-highlight-blue);
+}
+.purpleBackground {
+  background-color: var(--color-highlight-purple);
+}
+
+/* Header */
+
+header {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+}
+
+header img {
+  height: 54px;
+  border-radius: 5px;
+}
+
+header a {
+  font-family: "IBM Plex Mono", monospace;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  text-align: right;
+}
+
+header nav ul li {
+  font-size: 1rem;
+  color: var(--color-text-light);
+  padding-left: 10px;
+}
+
+/* Footer */
+
+footer {
+  background: var(--color-background-dark);
+  padding-top: 25vh;
+  padding-right: 10vw;
+  padding-bottom: 10vh;
+  padding-left: 10vw;
+}
+
+footer * {
+  color: var(--color-text-light);
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 900px) {
+  header nav ul {
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.6rem;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+}
