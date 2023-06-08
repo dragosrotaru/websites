@@ -79,6 +79,7 @@ export default function RootLayout({
         <Script
           async
           defer
+          strategy="afterInteractive"
           src="https://client.ping.buzz/ping.min.js?widget_id=90185d3f-9909-4b6e-bbaa-5b9d861baa8e"
           id="huckleberry-ping-insert-script"
         ></Script>
