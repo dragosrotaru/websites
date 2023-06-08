@@ -9,6 +9,8 @@ const AUTHOR = NAME;
 const DESCRIPTION = "Personal Website";
 const TITLE = AUTHOR;
 
+const icons = ["icons/icon.png", "icons/tile.png"];
+
 export const metadata: Metadata = {
   title: TITLE,
   description: DESCRIPTION,
@@ -20,7 +22,7 @@ export const metadata: Metadata = {
     url: SITE_URL,
 
     type: "website",
-    images: [],
+    images: icons,
   },
   metadataBase: new URL(SITE_URL),
   twitter: {
@@ -46,7 +48,7 @@ export const metadata: Metadata = {
   },
   manifest: "/manifest.json",
   viewport: "width=device-width, initial-scale=1.0",
-  icons: [],
+  icons: icons,
 };
 
 export default function RootLayout({
