@@ -62,7 +62,7 @@ export default function Home() {
               <h3>✈️ Travel Itinerary</h3>
               <ul className="list">
                 <li>
-                  <strong>June - August</strong> - 🇸🇰🇨🇿🇩🇪🇪🇸🇫🇷🇨🇭🇮🇹🇦🇹🇧🇪🇳🇱🧗‍♀️ Europe
+                  <strong>June - August</strong> - 🇪🇺🧗‍♀️ Europe
                 </li>
                 <li>
                   <strong>September - October</strong> - 🇨🇦🇺🇸🧗‍♀️🚌 Canada + US
