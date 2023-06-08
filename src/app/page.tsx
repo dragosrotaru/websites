@@ -93,9 +93,9 @@ export default function Home() {
                 </strong>
               </p>
               <p>
-                Please find my resumes{" "}
+                Please find{" "}
                 <a href="resume.pdf" target="_blank">
-                  here
+                  my resume here
                 </a>{" "}
                 for your reading pleasure. Ever since I was a teen, I have been
                 in love with computer science, from the most theoretical to the

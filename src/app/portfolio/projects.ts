@@ -83,7 +83,7 @@ export const Projects: Project[] = [
     image: "huckleberry.png",
     imageAlt: "Huckleberry logo",
     button: {
-      title: "Read More",
+      title: "Huckleberry Site",
       url: "https://huckleberry.app",
       color: "blue",
     },
