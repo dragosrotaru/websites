@@ -135,6 +135,10 @@ footer * {
   color: var(--color-text-light);
 }
 
+footer li {
+  padding: 13px;
+}
+
 /* Responsive */
 
 @media only screen and (max-width: 900px) {
