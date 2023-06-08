@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import { NAME, SITE_URL } from "./info";
 
@@ -58,15 +59,29 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head></head>
+      <head>
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-QH54W7DVXV"
+          strategy="afterInteractive"
+        ></Script>
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){ window.dataLayer.push(arguments); }
+            gtag('js', new Date());
+            gtag('config', 'G-QH54W7DVXV');
+          `}
+        </Script>
+      </head>
       <body className={inter.className}>
         {children}
-        <script
+        <Script
           async
           defer
           src="https://client.ping.buzz/ping.min.js?widget_id=90185d3f-9909-4b6e-bbaa-5b9d861baa8e"
           id="huckleberry-ping-insert-script"
-        ></script>
+        ></Script>
       </body>
     </html>
   );
