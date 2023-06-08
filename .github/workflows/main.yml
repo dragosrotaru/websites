@@ -58,6 +58,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
       - name: Download Build Artifacts
         uses: actions/download-artifact@v3
         with:
@@ -68,13 +71,16 @@ jobs:
         with:
           uploadArtifacts: true
           temporaryPublicStorage: true
-          budgetPath: ./lighthousebudget.json
-          configPath: ./lighthouseconfig.json
+          budgetPath: lighthousebudget.json
+          configPath: lighthouseconfig.json
 
   deploy:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
       - name: Download Build Artifacts
         uses: actions/download-artifact@v3
         with:
