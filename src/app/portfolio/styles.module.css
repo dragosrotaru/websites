@@ -15,15 +15,16 @@
 
 .project {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  width: 100%;
   min-height: 500px;
+  width: 100%;
+  margin: auto;
 }
 
 .content,
 .image {
-  width: 40%;
+  width: 48%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -34,8 +35,8 @@
 }
 
 .image img {
-  max-width: 500px;
-  min-width: 200px;
+  width: 100%;
+  height: auto;
   align-self: center;
   border-radius: 10px;
 }
@@ -78,19 +79,20 @@
   height: auto;
   padding: 10px;
   width: 100px;
-  color: ivory;
+  color: rgb(255, 255, 255);
   box-shadow: -3px 5px 5px rgba(31, 31, 31, 0.2);
   border-radius: 5px;
   -webkit-transition: all 0.1s;
   -o-transition: all 0.1s;
   transition: all 0.1s;
+  filter: contrast(1.2);
 }
 
 .button:hover {
   cursor: pointer;
-  -webkit-transform: translateY(-3px);
-  -ms-transform: translateY(-3px);
-  transform: translateY(-3px);
+  -webkit-transform: translateY(-2px);
+  -ms-transform: translateY(-2px);
+  transform: translateY(-2px);
   -webkit-filter: brightness(1.1);
   filter: brightness(1.1);
 }
@@ -109,7 +111,7 @@
   .project .content,
   .project .image {
     order: 1;
-    width: 100%;
+    width: 60%;
     margin: 20px;
     align-items: center;
   }
