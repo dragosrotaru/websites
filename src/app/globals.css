@@ -89,13 +89,14 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  top: 20px;
-  left: 20px;
-  right: 20px;
+  align-items: center;
+  left: 0;
+  right: 0;
+  padding: 15px;
 }
 
 header img {
-  height: 54px;
+  height: 48px;
   border-radius: 5px;
 }
 
@@ -112,7 +113,7 @@ header nav ul {
 header nav ul li {
   font-size: 1rem;
   color: var(--color-text-light);
-  padding-left: 10px;
+  padding-left: 15px;
 }
 
 /* Footer */

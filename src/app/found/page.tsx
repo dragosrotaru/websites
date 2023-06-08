@@ -1,11 +1,13 @@
+import Image from "next/image";
 import { EMAIL, INSTAGRAM, PHONE_CA, PHONE_EU } from "../info";
+import Logo from "../logo";
 import styles from "./page.module.css";
 
 export default function Found() {
   return (
     <>
       <header>
-        <img src="icons/icon.png" />
+        <Logo />
         <nav>
           <ul>
             <li>
@@ -26,7 +28,13 @@ export default function Found() {
             bottle of wine, or cold hard cash.
           </p>
         </div>
-        <img src="cat-begging.gif" />
+        <Image
+          src="cat-begging.gif"
+          priority
+          alt="gif of a cat begging"
+          width={500}
+          height={500}
+        />
       </div>
       <div></div>
       <div
@@ -36,7 +44,7 @@ export default function Found() {
         <p>Here is my contact information:</p>
         <ul>
           <li>email: {EMAIL}</li>
-          <li>phone: {PHONE_CA} (Canada)</li>
+          <li>phone: {PHONE_CA} (Canada, Whatsapp, Telegram, Signal)</li>
           <li>phone: {PHONE_EU} (Europe)</li>
           <li>instagram: {INSTAGRAM}</li>
         </ul>

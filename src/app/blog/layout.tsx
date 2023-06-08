@@ -1,3 +1,4 @@
+import Logo from "../logo";
 import styles from "./layout.module.css";
 
 export default function RootLayout({
@@ -8,7 +9,7 @@ export default function RootLayout({
   return (
     <>
       <header>
-        <img src="icons/icon.png" />
+        <Logo />
         <nav>
           <ul>
             <li>

@@ -1,3 +1,5 @@
+import Image from "next/image";
+import { GITHUB_URL } from "../info";
 import { Project as ProjectType, Projects } from "./projects";
 import styles from "./styles.module.css";
 
@@ -17,7 +19,12 @@ function Project({
       ].join(" ")}
     >
       <div className={styles.image}>
-        <img src={"portfolio/" + image} alt={imageAlt} />
+        <Image
+          src={"portfolio/" + image}
+          alt={imageAlt}
+          width={500}
+          height={500}
+        />
       </div>
       <div className={styles.content}>
         <h3>{title}</h3>
@@ -41,8 +48,11 @@ export default function Portfolio() {
     <section className={styles.portfolio} id="portfolio">
       <h2>Experience Spotlight 🔦</h2>
       <p>
-        Below are some of the highlights of my career. There are many more
-        projects on my gitub or social media.
+        Below is a random selection of my past jobs, clients and side projects.
+        <br />
+        You can find most of my projects on <a href={GITHUB_URL}>Github</a>.
+        <br />
+        This section needs to be updated.
       </p>
       {Projects.map((project, index) => (
         <Project

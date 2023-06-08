@@ -1,0 +1,81 @@
+name: PR Workflow
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+permissions:
+  checks: write
+  pull-requests: write
+  contents: write
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+     - name: Use Node.js 19
+        uses: actions/setup-node@v3
+        with:
+          node-version: 19
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2 
+      
+      - name: Get pnpm store directory
+        id: pnpm-cache
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+
+      - uses: actions/cache@v3
+        name: Setup pnpm cache
+        with:
+          path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
+      - name: Install Dependencies
+        run: pnpm install
+
+      - name: Build Next.js website
+        run: npm run build
+
+      - name: Determine S3 bucket based on branch
+        id: set-env
+        run: |
+          if [[ ${{ github.ref }} == 'refs/heads/main' ]]; then
+            echo "::set-env name=bucket::${{ secrets.PRODUCTION_S3_BUCKET }}"
+            echo "::set-env name=url::${{ secrets.PRODUCTION_URL }}"
+          else
+            echo "::set-env name=bucket::${{ secrets.STAGING_S3_BUCKET }}"
+            echo "::set-env name=url::${{ secrets.STAGING_URL }}"
+          fi
+
+      - name: Sync to Staging S3 bucket
+        uses: jakejarvis/s3-sync-action@master
+        with:
+          args: --acl public-read --delete
+        env:
+          SOURCE_DIR: 'out'
+          AWS_S3_BUCKET: ${{ steps.set-env.outputs.bucket }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+
+      - name: Run Google Lighthouse audit
+        uses: treosh/lighthouse-action@v2
+        with:
+          url: ${{ steps.set-env.outputs.url }}
+          flags: "--output html --output json --output-path /github/workspace/out/lighthouse-report.html"
+
+      - name: Save Lighthouse audit report as artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: lighthouse-report
+          path: out/lighthouse-report.html

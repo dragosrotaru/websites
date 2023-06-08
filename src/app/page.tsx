@@ -6,6 +6,7 @@ import {
   LINKEDIN_URL,
   LINKEDIN_USERNAME,
 } from "./info";
+import Logo from "./logo";
 import Neural from "./neural";
 import styles from "./page.module.css";
 import Portfolio from "./portfolio";
@@ -14,7 +15,7 @@ export default function Home() {
   return (
     <>
       <header>
-        <img src="icons/icon.png" />
+        <Logo />
         <nav>
           <ul className="list">
             <li>
@@ -82,53 +83,50 @@ export default function Home() {
                 them. This is why I think the term code monkey is insulting
                 towards monkeys. Monkeys had the foresight to avoid meetings
                 that could have been emails, back pain and even JavaScript. But
-                here we are. So...
+                here we are, so:
               </p>
               <p>
                 <strong>
-                  I am seeking great people to do software engineering work with
-                  in a respectful and authentic work environment.
+                  I am seeking great people to do software engineering work
+                  with. I can offer my authentic interest 🧠 a positive attitude
+                  🌞 and commitment to growth 🌱.
                 </strong>
               </p>
               <p>
-                I have been programming and tinkering for 12 years, 7 years of
-                which have been as a professional (💰). Half of my experience
-                has involved a leadership or entrepreneural dimension to it. I
-                have been the technical co-founder of a startup, the team lead
-                on a couple projects and have an decent portfolio as an
-                independent consultant and open source contributor. I have
-                worked remotely almost my entire career with teams in North
-                America and Europe. I am a dual Canada/EU citizen, based in the
-                EU for now and I am looking for long-term remote contract work.
+                Please find my resume{" "}
+                <a href="resume.pdf" target="_blank">
+                  here
+                </a>{" "}
+                for your reading pleasure. Ever since I was a teen, I have been
+                in love with computer science, from the most theoretical to the
+                most pragmatic aspects. Like all long term relationships there
+                are of course ebs and flows. But my dedication to the craft has
+                never waned.
               </p>
               <p>
-                My typical goto stack is TypeScript, Node, React, AWS and
-                PostGres. I have also worked with Python, C#, Angular, C,
-                Golang, Ruby and some other things I cant recall at the moment.
-                I would prefer to stick with Typescript as I have become quite
-                fond of it, but I am open minded.
-              </p>
-              <p>I am especially interested in the following topics:</p>
-              <p>
-                refactoring via chatGPT • domain driven design • event sourcing
-                • typescript • programming language design • P2P/DHTs/CRDTs
-                • Semantic Web • Graph DBs
+                My preferred stack is TypeScript, Node, React, AWS and PostGres.
+                I have also worked on production systems in Python, C#, C,
+                Golang, Ruby, Angular, Vue and many many other things, but I
+                prefer to stick with Typescript as I have become quite fond of
+                it and am developing some tools to make it even better. However
+                if there is a chance to work with Haskell or a Lisp variant I
+                would take it.
               </p>
               <p>
-                <strong>
-                  Im looking for employers that meet these requirements
-                </strong>
-              </p>
-              <p>
-                fully remote • flexible working hours • strong technical
-                leadership • good deliniation of responsibilities • frequent
-                refactoring, CI/CD, testing • following best practices • async
-                work and minimal meetings
+                I am especially interested in programming language design and
+                tooling, in particular using large language models/transformers.
+                My bread and butter is applying domain driven design and event
+                sourcing to really complex domains. Additionally anything
+                related to building a better internet - peer to peer protocols,
+                semantic web, distributed data structures (CRDTs), content
+                addressable protocols (IPFS) and graph data structures.
               </p>
               <p>
                 <strong>
-                  If it sounds like we might have a good match, I would love to
-                  hear about it.
+                  Im looking for jobs that are fully remote, with flexible
+                  hours. I want to work on teams with focused leadership, an
+                  asynchronous workflow with minimal overhead and a commitment
+                  to following industry best practices.
                 </strong>
               </p>
             </section>

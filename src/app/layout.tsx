@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { NAME, SITE_URL, TWITTER } from "./info";
+import { NAME, SITE_URL } from "./info";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,11 +22,11 @@ export const metadata: Metadata = {
     type: "website",
     images: [],
   },
+  metadataBase: new URL(SITE_URL),
   twitter: {
     title: TITLE,
     creator: AUTHOR,
     description: DESCRIPTION,
-    creatorId: TWITTER,
     images: [],
   },
   authors: {
@@ -58,6 +58,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <script
+          async
           src="https://client.ping.buzz/ping.min.js?widget_id=90185d3f-9909-4b6e-bbaa-5b9d861baa8e"
           id="huckleberry-ping-insert-script"
         ></script>
