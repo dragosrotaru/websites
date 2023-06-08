@@ -68,13 +68,9 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 
       - name: Run Google Lighthouse audit
-        uses: treosh/lighthouse-action@v2
+        uses: treosh/lighthouse-ci-action@v10
         with:
           url: ${{ steps.set-env.outputs.url }}
-          flags: "--output html --output json --output-path /github/workspace/out/lighthouse-report.html"
-
-      - name: Save Lighthouse audit report as artifact
-        uses: actions/upload-artifact@v2
-        with:
-          name: lighthouse-report
-          path: out/lighthouse-report.html
+          uploadArtifacts: true
+          temporaryPublicStorage: true
+          runs: 3
