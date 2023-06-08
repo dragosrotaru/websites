@@ -1,4 +1,4 @@
-name: PR Workflow
+name: Build, Test and Deploy
 
 on:
   pull_request:
@@ -7,10 +7,12 @@ on:
   push:
     branches:
       - main
+
 permissions:
   checks: write
   pull-requests: write
   contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -18,10 +20,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Use Node.js 19
+      - name: Use Node
         uses: actions/setup-node@v3
         with:
-          node-version: 19
+          node-version: 20
 
       - name: Install pnpm
         uses: pnpm/action-setup@v2
@@ -43,32 +45,24 @@ jobs:
       - name: Install Dependencies
         run: pnpm install
 
-      - name: Build Next.js website
+      - name: Build
         run: npm run build
 
-      - name: Persist build artifacts
-        run: |
-          mv out ${{ github.workspace }}/build
-  deploy:
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Sync to Staging S3 bucket
-        uses: jakejarvis/s3-sync-action@master
+      - name: Upload Build Artifacts
+        uses: actions/upload-artifact@v3
         with:
-          args: --acl public-read --delete
-        env:
-          SOURCE_DIR: ${{ github.workspace }}/build
-          AWS_S3_BUCKET: ${{ secrets.PRODUCTION_S3_BUCKET }}
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          name: build
+          path: build
+
   test:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: Persist build artifacts
-        run: |
-          mv ${{ github.workspace }}/build out
+      - name: Download Build Artifacts
+        uses: actions/download-artifact@v3
+        with:
+          name: build
+
       - name: Run Google Lighthouse audit
         uses: treosh/lighthouse-ci-action@v10
         with:
@@ -76,3 +70,22 @@ jobs:
           temporaryPublicStorage: true
           budgetPath: ./lighthousebudget.json
           configPath: ./lighthouseconfig.json
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Download Build Artifacts
+        uses: actions/download-artifact@v3
+        with:
+          name: build
+
+      - name: Sync to S3 bucket
+        uses: jakejarvis/s3-sync-action@master
+        with:
+          args: --acl public-read --delete
+        env:
+          SOURCE_DIR: build
+          AWS_S3_BUCKET: ${{ secrets.PRODUCTION_S3_BUCKET }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
