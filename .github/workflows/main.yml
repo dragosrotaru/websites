@@ -65,6 +65,7 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: build
+          path: build
 
       - name: Run Google Lighthouse audit
         uses: treosh/lighthouse-ci-action@v10
@@ -85,6 +86,7 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: build
+          path: build
 
       - name: Sync to S3 bucket
         uses: jakejarvis/s3-sync-action@master
