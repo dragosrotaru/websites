@@ -4,10 +4,10 @@
   --color-text-light: white;
   --color-background-light: rgb(253, 253, 250);
   --color-background-dark: #1f1e1e;
-  --color-highlight-blue: #0087ff;
-  --color-highlight-purple: #e262fc;
-  --color-highlight-yellow: #feca00;
-  --color-highlight-red: #fd0505;
+  --color-highlight-blue: #0058a8;
+  --color-highlight-purple: #9603b5;
+  --color-highlight-yellow: #fea500;
+  --color-highlight-red: #b60202;
 }
 
 body {
