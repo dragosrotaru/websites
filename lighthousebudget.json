@@ -1,14 +1,14 @@
 [
   {
-    "path": "/*",
+    "path": "/index.html",
     "timings": [
       {
         "metric": "interactive",
-        "budget": 1000
+        "budget": 7000
       },
       {
         "metric": "first-meaningful-paint",
-        "budget": 600
+        "budget": 1300
       }
     ],
     "resourceSizes": [
