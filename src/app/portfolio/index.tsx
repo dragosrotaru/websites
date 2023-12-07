@@ -48,9 +48,9 @@ export default function Portfolio() {
     <section className={styles.portfolio} id="portfolio">
       <h2>Experience Spotlight 🔦</h2>
       <p>
-        Below is a random selection of my past jobs, clients and side projects.
+        Below is a selection of my past jobs, clients and select side projects.
         <br />
-        You can find most of my projects on <a href={GITHUB_URL}>Github</a>.
+        Additionally you can find my projects on <a href={GITHUB_URL}>Github</a>.
         <br />
         This section needs to be updated.
       </p>
