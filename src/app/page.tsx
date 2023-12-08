@@ -20,9 +20,6 @@ export default function Home() {
             {/* <li>
               <a href="#here-and-now">Here and Now</a>
             </li> */}
-            <li>
-              <a href="#hiring">Work with me</a>
-            </li>
             {/* <li>
               <a href="#portfolio">Portfolio</a>
             </li> */}
@@ -51,7 +48,7 @@ export default function Home() {
                   I am working on neurosymbolic compilers and program synthesis in pursuit of AGI.
                   If you want to work together, my email is dragos@rotaru.co. Twitter is @noharamnofoul.
                   Some of my work is public on Github, some of it isnt. My resume was designed to make money
-                  and gain personal independence in the normie world given traumatic initial conditions.
+                  and gain personal independence given traumatic initial conditions.
                   If you actually want to know me, talk to me like a human being. If you are a recruiter,
                   non techical person or normie reading this, I apologize for my lack of conformity, but 
                   I spent 7 years trying to fit in your nonsensical boxes
