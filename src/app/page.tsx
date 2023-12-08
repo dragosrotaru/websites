@@ -55,7 +55,8 @@ export default function Home() {
                   I study Haskell, Rust, Lisp, Metaprogramming, Type Theory, Deep Learning, Compiler/Language Design, WebGPU, CRDTs,
                   Knowledge Representation, Religion, DMT, Singulariy, Human Computer Interfaces, Hardware, Synthesizers, and tons of
                   other topics. I spend more time studying stuff and making small experiments than finishing commercial projects, because
-                  Im in the exploration phase, not the exploitation phase. My goal is to build Artificial Super Intelligence.
+                  Im in the exploration phase, not the exploitation phase. My neural net is still training.
+                  My goal is to build Artificial Super Intelligence.
                 </strong>
                 </p>
               <p>last update on {LAST_UPDATE}</p>
