@@ -12,5 +12,7 @@ export const INSTAGRAM = "dopeonaslope";
 export const EMAIL = "info@dragosrotaru.com";
 export const GITHUB_USERNAME = "dragosrotaru";
 export const LINKEDIN_USERNAME = "dragosrotaru";
+export const TWITTER_USERNAME = "noharamnofoul";
+export const TWITTER_URL = "https://x.com/noharamnofoul";
 export const GITHUB_URL = `https://github.com/${GITHUB_USERNAME}`;
 export const LINKEDIN_URL = `https://linkedin.com/in/${LINKEDIN_USERNAME}`;
