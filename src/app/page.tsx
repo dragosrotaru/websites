@@ -45,7 +45,7 @@ export default function Home() {
               <h2>Here and Now 🧘</h2>
               <p>
               <strong>
-                  I am working on neurosymbolic compilers and program synthesis in pursuit of AGI.
+                  I am working on neurosymbolic compilers and program synthesis in pursuit of ASI.
                   If you want to work together, my email is dragos@rotaru.co. Twitter is @noharamnofoul.
                   Some of my work is public on Github, some of it isnt. My resume was designed to make money
                   and gain personal independence given traumatic initial conditions.
