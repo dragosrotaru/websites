@@ -45,13 +45,13 @@ export default function Home() {
               <h2>Here and Now 🧘</h2>
               <p>
               <strong>
-                  I am working on neurosymbolic compilers and program synthesis in pursuit of ASI.
+                  I am working on neurosymbolic compilers and program synthesis in pursuit of ASsI.
                   If you want to work together, my email is dragos@rotaru.co. Twitter is @noharamnofoul.
                   Some of my work is public on Github, some of it isnt. My resume was designed to make money
                   and gain personal independence given traumatic initial conditions.
                   If you actually want to know me, talk to me like a human being. If you are a recruiter,
                   non techical person or normie reading this, I apologize for my lack of conformity, but 
-                  I spent 7 years trying to fit in your nonsensical boxes
+                  I spent 27 years trying to fit in your nonsensical boxes
                   and I think its time to just be my weird ass myself. 
                 </strong>
                 </p>
