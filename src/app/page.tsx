@@ -47,8 +47,8 @@ export default function Home() {
             <h2>Here and Now 🧘</h2>
             <p>
               <strong>
-                Howdy. I am working on neurosymbolic compilers and program
-                synthesis in pursuit of ASI. My resume was designed to make
+                Howdy. I am working on neurosymbolic evaluation in pursuit of ASI.
+                My resume was designed to make
                 money and gain personal independence given traumatic initial
                 conditions. I’m a cofounder of a startup, engineer for 7 years,
                 blah blah blah. If you actually want to know me, please just
