@@ -54,7 +54,7 @@ export default function Home() {
                 If you wish to know me, please just reach out!
                 <br /><br />
                 I apologize for my lack of conformity, but I spent 27 years trying to fit into 
-                a molds and I think it’s time to just be my weird ass myself.
+                a mold and I think it’s time to just be my weird ass myself.
                 <br /><br />
                 I study Haskell, Rust, Lisp, Metaprogramming, Type Theory,
                 Deep Learning, Compiler/Language Design, WebGPU, CRDTs,
