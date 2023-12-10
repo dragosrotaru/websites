@@ -50,7 +50,7 @@ export default function Home() {
                 Howdy. I am working on neurosymbolic evaluation in pursuit of ASI.
                 My resume was designed to make
                 money and gain personal independence given traumatic initial
-                conditions. I’m a cofounder of a startup, engineer for 7 years, etc.
+                conditions. I’m a cofounder of a startup, programmer for 7 years, etc.
                 If you wish to know me, please just reach out!
                 <br /><br />
                 I apologize for my lack of conformity, but I spent 27 years trying to fit into 
