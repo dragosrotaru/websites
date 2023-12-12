@@ -47,26 +47,22 @@ export default function Home() {
             <h2>Here and Now 🧘</h2>
             <p>
               <strong>
-                Howdy. I am working on neurosymbolic evaluation in pursuit of ASI.
-                My resume was designed to make
-                money and gain personal independence given traumatic initial
-                conditions. I’m a cofounder of a startup, programmer for 7 years, etc.
-                If you wish to know me, please just reach out!
+                Howdy. I am a programmer and aspiring researcher
+                working towards neurosymbolic ASI.
+                I am also a 27 year old Romanian/Canadian first generation immigrant,
+                and have lived all over the world following various passions.
+                My path is pretty chaotic and unconventional.
+                I am open to work anywhere or remotely, but after 7 years mostly remote I prefer to be hybrid.
                 <br /><br />
-                I apologize for my lack of conformity, but I spent 27 years trying to fit into 
-                a mold and I think it’s time to just be my weird ass myself.
+                My interests include Type Theory, Metaprogramming,
+                Compiler Design, Decentralization, CRDTs, AGI, Programming Languages,
+                WebGPU, Deep Learning, Symbolic AI, Haskell, Rust, Lisp, TypeScript,
+                Knowledge Representation, Spirituality, Psychedelics, Philosophy and more.
                 <br /><br />
-                I study Haskell, Rust, Lisp, Metaprogramming, Type Theory,
-                Deep Learning, Compiler/Language Design, WebGPU, CRDTs,
-                Knowledge Representation, Religion, DMT, Singularity, HCI,
-                Hardware, and more. I make money using Node, TS, React, AWS. the
-                boring stuff.
+                I am in search of mentors and collaborators.
+                If you wish to really know me, please just reach out!
                 <br /><br />
-                I would really
-                appreciate a conversation, I want to collaborate!
-                Godspeed.
-                <br /><br />
-                In love and kindness,
+                With love and kindness,
                 <br />
                 Dragos Rotaru
               </strong>
