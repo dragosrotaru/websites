@@ -47,17 +47,21 @@ export default function Home() {
             <h2>Here and Now 🧘</h2>
             <p>
               <strong>
-                Howdy partner 🤠. I am a programmer/swe and researcher
-                interested in human-AI symbiosis, neurosymbolic AI, type theory,
-                program synthesis, formal verification, metaprogramming,
-                language/compiler design, decentralization, deep learning
-                knowledge representation, the combination of spirituality and
-                science, psychedelics, transhumanism, and the future of
-                humanity. I am working on human-ai programming workspaces, and I
-                would like to build a archaic-revivalist techno-optimist
+                Howdy partner 🤠. I am a quasi-self-taught programmer/swe and
+                researcher interested in human-AI symbiosis, neurosymbolic AI,
+                type theory, program synthesis, formal verification,
+                metaprogramming, language/compiler design, decentralization,
+                deep learning, knowledge representation, the combination of
+                spirituality and science, psychedelics, transhumanism, trauma,
+                mental illness, neurodivergence, collaboration, and the future
+                of humanity. I am working on human-ai programming workspaces,
+                and I would like to build a archaic-revivalist techno-optimist
                 community. I would also like to settle on Mars. I build many
                 things with atoms and bits. I am a generalist, polymath,
-                aspiring renaissance man.
+                aspiring renaissance man. I live in a school bus, walk on
+                highlines, ski down mountains, explore lifestyles nomadic and
+                otherwise, and have a photolithography (microchip) machine in my
+                parents basement.
                 <br />
                 <br />
                 I am in search of mentors and collaborators. If you wish to
