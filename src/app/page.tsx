@@ -47,21 +47,23 @@ export default function Home() {
             <h2>Here and Now 🧘</h2>
             <p>
               <strong>
-                Howdy. I am a programmer and aspiring researcher
-                working towards neurosymbolic ASI.
-                I am also a 27 year old Romanian/Canadian first generation immigrant,
-                and have lived all over the world following various passions.
-                My path is pretty chaotic and unconventional.
-                I am open to work anywhere or remotely, but after 7 years mostly remote I prefer to be hybrid.
-                <br /><br />
-                My interests include Type Theory, Metaprogramming,
-                Compiler Design, Decentralization, CRDTs, AGI, Programming Languages,
-                WebGPU, Deep Learning, Symbolic AI, Haskell, Rust, Lisp, TypeScript,
-                Knowledge Representation, Spirituality, Psychedelics, Philosophy and more.
-                <br /><br />
-                I am in search of mentors and collaborators.
-                If you wish to really know me, please just reach out!
-                <br /><br />
+                Howdy partner 🤠. I am a programmer/swe and researcher
+                interested in human-AI symbiosis, neurosymbolic AI, type theory,
+                program synthesis, formal verification, metaprogramming,
+                language/compiler design, decentralization, deep learning
+                knowledge representation, the combination of spirituality and
+                science, psychedelics, transhumanism, and the future of
+                humanity. I am working on human-ai programming workspaces, and I
+                would like to build a archaic-revivalist techno-optimist
+                community. I would also like to settle on Mars. I build many
+                things with atoms and bits. I am a generalist, polymath,
+                aspiring renaissance man.
+                <br />
+                <br />
+                I am in search of mentors and collaborators. If you wish to
+                really know me, please just reach out!
+                <br />
+                <br />
                 With love and kindness,
                 <br />
                 Dragos Rotaru
