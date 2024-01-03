@@ -47,28 +47,34 @@ export default function Home() {
             <h2>Here and Now 🧘</h2>
             <p>
               <strong>
-                Howdy partner 🤠. I am a quasi-self-taught programmer/swe and
-                researcher interested in human-AI symbiosis, neurosymbolic AI,
-                type theory, heterogeneous computing, real time hardware,
-                program synthesis, formal verification, metaprogramming,
-                language/compiler design, decentralization, deep learning,
-                knowledge representation, psychedelics, transhumanism and more.
-                I am currently working on AI models on consumer hardware via
-                WebGPU and human-ai programming workspaces. I build many things
-                with atoms and bits. I am a generalist, polymath, aspiring
-                renaissance man. I live in a school bus, walk on highlines, ski
-                down mountains, explore lifestyles nomadic and otherwise, and
-                have a photolithography (microchip) machine in my parents
-                basement.
+                Hi there! I am a Canadian-Romanian software engineer and
+                entrepreneur approaching a decade of experience building all
+                kinds of products and systems. My scope of work is extensive - I
+                started my career designing analog + embedded music hardware and
+                writing C code. Now I mostly do full-stack software engineering
+                with a particular interest in Machine Learning Compilation and
+                Programming Language Design. I am a proponent of open source,
+                decentralized software.
                 <br />
                 <br />
-                I am in search of mentors and collaborators. If you wish to
-                really know me, please just reach out!
+                I am a polyglot capable of producing systems in a wide range of
+                languages, styles and architectures. I am comfortable in
+                Typescript / JS, Python, Rust, C, C#, WGSL, HTML/CSS, SQL, and
+                have written production code in Ruby on Rails, Golang, PHP, Flow
+                and others. I have played around with programming languages like
+                Clojure, Haskell, Idris and Lean. I love to write various kinds
+                of experimental software.
                 <br />
                 <br />
-                With love and kindness,
+                My current side project obsession is in replicating machine
+                learning papers on consumer hardware / in WebGPU, and building a
+                human-AI pair programming language + IDE.
                 <br />
-                Dragos Rotaru
+                <br />
+                I will be in Melbourne, Australia until July at the earliest and
+                am available for flexible remote jobs. I am in search of mentors
+                and collaborators. Dont hesitate to reach out :)
+                <br />
               </strong>
             </p>
             <p>last update on {LAST_UPDATE}</p>
