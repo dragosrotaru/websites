@@ -49,21 +49,19 @@ export default function Home() {
               <strong>
                 Hi there! I am a Canadian-Romanian software engineer and
                 entrepreneur approaching a decade of experience building all
-                kinds of products and systems. My scope of work is extensive - I
-                started my career designing analog + embedded music hardware and
-                writing C code. Now I mostly do full-stack software engineering
-                with a particular interest in Machine Learning Compilation and
-                Programming Language Design. I am a proponent of open source,
-                decentralized software.
+                kinds of products and systems. I started my career designing
+                analog + embedded music hardware and writing C code. Now I
+                mostly do full-stack software engineering with a particular
+                interest in Machine Learning and Programming Language Design.
                 <br />
                 <br />
-                I am a polyglot capable of producing systems in a wide range of
-                languages, styles and architectures. I am comfortable in
-                Typescript / JS, Python, Rust, C, C#, WGSL, HTML/CSS, SQL, and
-                have written production code in Ruby on Rails, Golang, PHP, Flow
-                and others. I have played around with programming languages like
-                Clojure, Haskell, Idris and Lean. I love to write various kinds
-                of experimental software.
+                I am a polyglot capable of building systems in a wide range of
+                languages and styles. These include Typescript, Rust, Golang, C,
+                C#, Ruby on Rails, Haskell, and more. I love to write
+                experimental software, and my current side project obsessions
+                include replicating machine learning papers on consumer hardware
+                / WebGPU, and building a human-AI pair programming language +
+                IDE.
                 <br />
                 <br />
                 My current side project obsession is in replicating machine
@@ -73,7 +71,8 @@ export default function Home() {
                 <br />
                 I will be in Melbourne, Australia until July at the earliest and
                 am available for flexible remote jobs. I am in search of mentors
-                and collaborators. Dont hesitate to reach out :)
+                and collaborators for research projects, and am finishing my
+                math degree part-time. Dont hesitate to reach out :)
                 <br />
               </strong>
             </p>
