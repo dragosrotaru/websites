@@ -64,11 +64,6 @@ export default function Home() {
                 IDE.
                 <br />
                 <br />
-                My current side project obsession is in replicating machine
-                learning papers on consumer hardware / in WebGPU, and building a
-                human-AI pair programming language + IDE.
-                <br />
-                <br />
                 I will be in Melbourne, Australia until July at the earliest and
                 am available for flexible remote jobs. I am in search of mentors
                 and collaborators for research projects, and am finishing my
