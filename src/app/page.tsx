@@ -47,34 +47,25 @@ export default function Home() {
             <h2>Here and Now 🧘</h2>
             <p>
               <strong>
-                  I am a product driven software engineer and founder with 7+ years of
-                  experience building all kinds of systems. I started my career designing
-                  hardware and writing C code, however most of my career has been
-                  full-stack dev, particularly in TypeScript/React. I am capable of picking
-                  up new systems quickly. My current side projects include machine
-                  learning on WebGPU and writing a graphics programming language in
-                  Rust. I am looking for an early stage startup or scale up where I can
-                  have substantial impact on the direction of tech and product. I thrive
-                  when given a hard challenge. I am eager to prove myself and
-                  surround myself with people smarter and more capable than I.
-                  For my full resume, please see the link above.
+                I am a product driven software engineer and founder with 7+
+                years of experience building all kinds of systems. I started my
+                career designing hardware and writing C code, however most of my
+                career has been full-stack dev, particularly in
+                TypeScript/React. I am capable of picking up new systems
+                quickly. My current side projects include machine learning on
+                WebGPU and writing a graphics programming language in Rust. I am
+                looking for an early stage startup or scale up where I can have
+                substantial impact on the direction of tech and product. I
+                thrive when given a hard challenge. I am eager to prove myself
+                and surround myself with people smarter and more capable than I.
+                For my full resume can be found <a href="/resume.pdf">here</a>.
                 <br />
                 <br />
-                Key Interests include: Rust, Swift,
-WebGPU, CRDTs, Edge
-Computing, Solana, Deep
-Learning, NeuroSymbolic AI,
-Compilers, Programming
-Language Design, Haskell,
-Dependent Type Systems, Lisp,
-Formal Code Verification, ML
-Compilation.
+                Key Interests include: Rust, Swift, WebGPU, CRDTs, Edge
+                Computing, Solana, Deep Learning, NeuroSymbolic AI, Compilers,
+                Programming Language Design, Haskell, Dependent Type Systems,
+                Lisp, Formal Code Verification, ML Compilation.
                 <br />
-                <br />
-                I will be in Melbourne, Australia until July at the earliest and
-                am available for flexible remote jobs. I am in search of mentors
-                and collaborators for research projects, and am finishing my
-                math degree part-time. Dont hesitate to reach out :)
                 <br />
               </strong>
             </p>
