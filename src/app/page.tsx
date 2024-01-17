@@ -47,26 +47,28 @@ export default function Home() {
             <h2>Here and Now 🧘</h2>
             <p>
               <strong>
-                I am a Canadian-Romanian software engineer and entrepreneur
-                approaching a decade of experience building all kinds of
-                products and systems. My scope of work is extensive - I started
-                my career designing analog + embedded music hardware and writing
-                C code. Now I mostly do full-stack software engineering with a
-                particular interest in Machine Learning and Programming Language
-                Design. I am a polyglot capable of building systems in a wide
-                range of languages and styles. I love to write experimental
-                software, and my current side project obsessions include
-                replicating machine learning papers on consumer hardware /
-                WebGPU, and building a human-AI pair programming language + IDE
-                in Rust. For my full resume, please see the link above.
+                  I am a product driven software engineer and founder with 7+ years of
+                  experience building all kinds of systems. I started my career designing
+                  hardware and writing C code, however most of my career has been
+                  full-stack dev, particularly in TypeScript/React. I am capable of picking
+                  up new systems quickly. My current side projects include machine
+                  learning on WebGPU and writing a graphics programming language in
+                  Rust. I am looking for an early stage startup or scale up where I can
+                  have substantial impact on the direction of tech and product. I thrive
+                  when given a hard challenge. I am eager to prove myself and
+                  surround myself with people smarter and more capable than I.
+                  For my full resume, please see the link above.
                 <br />
                 <br />
-                Key Interests include: Deep Learning, NeuroSymbolic AI,
-                Compilers, Programming Language Design, Haskell, Dependent Type
-                Systems, Lean, Coq, Idris, Lisp, Formal Code Verification,
-                Program Synthesis, Rust, GPU Programming, Cuda, WebGPU, ML
-                Compilation, Human-AI Symbiosis, Colonizing Mars, e/acc,
-                Networked States, Singularity, Decentralization.
+                Key Interests include: Rust, Swift,
+WebGPU, CRDTs, Edge
+Computing, Solana, Deep
+Learning, NeuroSymbolic AI,
+Compilers, Programming
+Language Design, Haskell,
+Dependent Type Systems, Lisp,
+Formal Code Verification, ML
+Compilation.
                 <br />
                 <br />
                 I will be in Melbourne, Australia until July at the earliest and

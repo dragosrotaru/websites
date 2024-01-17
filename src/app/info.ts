@@ -1,5 +1,5 @@
 // General
-export const LAST_UPDATE = "December 2023";
+export const LAST_UPDATE = "January 2023";
 export const SITE_URL = "https://dragosrotaru.com";
 export const NAME = "Dragos Rotaru";
 
