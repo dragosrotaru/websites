@@ -11,6 +11,7 @@ import {
 import Logo from "./logo";
 import Neural from "./neural";
 import styles from "./page.module.css";
+import Portfolio from "./portfolio";
 
 export default function Home() {
   return (
@@ -65,6 +66,11 @@ export default function Home() {
             </p>
             <p>last update on {LAST_UPDATE}</p>
           </section>
+        </div>
+        <div className={styles.outerSlantUp}>
+          <div className={styles.innerSlantUp}>
+            <Portfolio />
+          </div>
         </div>
       </main>
       <footer id="contact">
