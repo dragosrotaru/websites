@@ -47,16 +47,20 @@ export default function Home() {
             <h2>Here and Now 🧘</h2>
             <p>
               <strong>
-                Howdy partner :) I am a product driven software engineer and former co-founder
+                Howdy, I am a product driven software engineer and former co-founder
                 looking to build useful things with cool people. I started my career designing hardware and writing C code 10 years ago,
                 however most of my work has been in full stack software engineering
                 with a focus on TypeScript/Node/React/AWS. My emphasis is on writing 
-                high quality, readable code. My current side projects include implementing machine learning papers
-                on WebGPU and writing a graphics programming language in Rust. I am
-                looking for a long term position in EU/US/Canada. Because I am a dual citizen of 
+                high quality, readable code.
+                <br/>
+                <br/>
+                My current side projects include implementing machine learning papers
+                on WebGPU and writing a graphics programming language in Rust.
+                <br/><br/>
+                I am looking for a long term position in EU/US/Canada. Because I am a dual citizen of 
                 Canada and Romania, I have spent an equal amount of time working on both continents
                 and I am able to relocate without issue. I can also work in the US on a TN authorization.
-                My full resume can be found <a href="/resume.pdf">here</a>.
+                My resume can be found <a href="/resume.pdf">here</a>.
               </strong>
             </p>
             <p>last update on {LAST_UPDATE}</p>
