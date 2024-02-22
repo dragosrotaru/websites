@@ -114,17 +114,6 @@ export const Projects: Project[] = [
     },
   },
   {
-    title: "ConstructionHub",
-    description: `
-        ConstructionHub is a sub-contractor bid management platform
-        in British Columbia. I led a team of 5 developers,
-        rewriting and launching V2 of the platform
-        after it had achieved some initial success.
-    `,
-    image: "constructionhub.png",
-    imageAlt: "ConstructionHub logo",
-  },
-  {
     title: "School Bus Camper",
     description: `
         I took some time off to convert a school bus camper. I learned a ton of hands-on skills to prepare for the impending apocalypse,
@@ -176,6 +165,16 @@ export const Projects: Project[] = [
     imageAlt: "Law Dataset logo",
   },
   {
+    title: "RCO Ventures",
+    description: `I helped dozens of customers solve business problems as a consultant.
+    I built a customer base large enough to sustain one full time employee and 3 part time contractors.
+    I developed a number of applications, websites and software solutions. Some of my past clients include
+    Toggl, MUTEK, O2 Canada, ONE Wellness Group, Legalline, Enercents, Cyberium and Absolute Coaching.
+    `,
+    image: "rco-ventures.png",
+    imageAlt: "RCO Ventures",
+  },
+  {
     title: "Atlas Property Group",
     description: `
         Atlas managed thousands of rental units
@@ -188,6 +187,17 @@ export const Projects: Project[] = [
     `,
     image: "atlas-property-group.png",
     imageAlt: "Atlas Property Group logo",
+  },
+  {
+    title: "ConstructionHub",
+    description: `
+        ConstructionHub is a sub-contractor bid management platform
+        in British Columbia. I led a team of 5 developers,
+        rewriting and launching V2 of the platform
+        after it had achieved some initial success.
+    `,
+    image: "constructionhub.png",
+    imageAlt: "ConstructionHub logo",
   },
   {
     title: "MDMax Billing (equina.io)",
