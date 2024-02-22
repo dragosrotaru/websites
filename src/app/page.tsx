@@ -47,26 +47,16 @@ export default function Home() {
             <h2>Here and Now 🧘</h2>
             <p>
               <strong>
-                I am a product driven software engineer and founder with 7+
-                years of experience building all kinds of systems. I started my
-                career designing hardware and writing C code, however most of my
-                career has been full-stack dev, particularly in
-                TypeScript/React. I am capable of picking up new systems
-                quickly. My current side projects include machine learning on
-                WebGPU and writing a graphics programming language in Rust. I am
-                looking for an early stage startup or scale up where I can have
-                substantial impact on the direction of tech and product. I
-                thrive when given a hard challenge. I am eager to prove myself
-                and surround myself with people smarter and more capable than I.
-                For my full resume can be found <a href="/resume.pdf">here</a>.
-                <br />
-                <br />
-                Key Interests include: Rust, Swift, WebGPU, CRDTs, Edge
-                Computing, Solana, Deep Learning, NeuroSymbolic AI, Compilers,
-                Programming Language Design, Haskell, Dependent Type Systems,
-                Lisp, Formal Code Verification, ML Compilation.
-                <br />
-                <br />
+                Howdy partner :) I am a product driven software engineer and former co-founder
+                looking to build useful things with cool people. I started my career designing hardware and writing C code 10 years ago,
+                however most of my work has been in full stack software engineering
+                with a focus on TypeScript/Node/React/AWS. My emphasis is on writing 
+                high quality, readable code. My current side projects include implementing machine learning papers
+                on WebGPU and writing a graphics programming language in Rust. I am
+                looking for a long term position in EU/US/Canada. Because I am a dual citizen of 
+                Canada and Romania, I have spent an equal amount of time working on both continents
+                and I am able to relocate without issue. I can also work in the US on a TN authorization.
+                My full resume can be found <a href="/resume.pdf">here</a>.
               </strong>
             </p>
             <p>last update on {LAST_UPDATE}</p>
@@ -83,9 +73,6 @@ export default function Home() {
           </li>
           <li>
             <a href={GITHUB_URL}>github @{GITHUB_USERNAME}</a>
-          </li>
-          <li>
-            <a href={TWITTER_URL}>linkedin @{TWITTER_USERNAME}</a>
           </li>
           <li>
             <a href={LINKEDIN_URL}>linkedin @{LINKEDIN_USERNAME}</a>
