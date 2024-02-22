@@ -47,22 +47,31 @@ export default function Home() {
           <section id="here-and-now">
             <h2>Here and Now 🧘</h2>
             <p>
-              <strong>
-                Howdy, I am a product driven software engineer and former co-founder
+                Howdy! I am a product driven software engineer and former co-founder
                 looking to build useful things with cool people. I started my career designing hardware and writing C code 10 years ago,
                 however most of my work has been in full stack software engineering
-                with a focus on TypeScript/Node/React/AWS. My emphasis is on writing 
-                high quality, readable code.
+                with a lean towards TypeScript/Node/React/AWS and some devops/data science sprinkled in.
                 <br/>
                 <br/>
-                My current side projects include implementing machine learning papers
-                on WebGPU and writing a graphics programming language in Rust.
+                I live by three core principles:
+                <br/>
+                <br/>
+                #1 a great company culture supersedes a great mission
+                <br/>
+                <br/>
+                #2 the hardest problems in tech are almost always people problems
+                <br/>
+                <br/>
+                #3 Quality OR Speed is a false dichotomy. Quality IS Speed 
+                <br/>
+                <br/>
+                My current side projects include implementing machine learning papers in
+                WebGPU and writing a graphics programming language in Rust/WebGPU (see PAL for details).
                 <br/><br/>
                 I am looking for a long term position in EU/US/Canada. Because I am a dual citizen of 
                 Canada and Romania, I have spent an equal amount of time working on both continents
-                and I am able to relocate without issue. I can also work in the US on a TN authorization.
+                and I will relocate without issue. I dont have a preference. I can also work in the US on a TN authorization.
                 My resume can be found <a href="/resume.pdf">here</a>.
-              </strong>
             </p>
             <p>last update on {LAST_UPDATE}</p>
           </section>

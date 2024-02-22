@@ -28,8 +28,8 @@ export const Projects: Project[] = [
   {
     title: "Anytype",
     description: `end to end encrypted, offline first and open source,
-     Anytype is the best privacy focused knowledge management tool on the market!
-     As a senior software engineer I helped achieve our public product launch objectives,
+     Anytype is the best privacy focused knowledge management tool you will find.
+     As a senior software engineer I helped achieve our public launch objective,
      developing a number of awesome features, fixing bugs and engaging with users on the community forums.`,
     image: "anytype.png",
     imageAlt: "anytype application screenshot",
@@ -127,10 +127,9 @@ export const Projects: Project[] = [
   {
     title: "School Bus Camper",
     description: `
-        I took some time off to convert a school bus camper. I learned about welding, metalworking,
-        laser cutting, CNC, woodworking, solar power, home automation,
-        CAD, diesel engines, biodiesel production,
-        plumbing, HVAC and many other things. I wrote
+        I took some time off to convert a school bus camper. I learned a ton of hands-on skills to prepare for the impending apocalypse,
+        including welding, metalwork, carpentry, electrical/solar, CAD,
+        automotive repair, biodiesel production, sewing, plumbing and more. I wrote
         a handbook (work in progress) and collected data on
         everything. I also built a custom CNC machine, took a wilderness first responder course
         and skied across north america.
