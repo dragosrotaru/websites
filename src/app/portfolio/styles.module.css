@@ -111,9 +111,14 @@
   .project .content,
   .project .image {
     order: 1;
-    width: 60%;
+    width: 90%;
     margin: 20px;
     align-items: center;
+  }
+
+  .project h3,
+  .project a {
+    align-self: center;
   }
 
   .portfolio {
