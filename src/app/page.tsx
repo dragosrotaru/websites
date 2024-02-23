@@ -48,9 +48,10 @@ export default function Home() {
             <h2>Here and Now 🧘</h2>
             <p>
                 Howdy! I am a product driven software engineer and former co-founder
-                looking to build useful things with cool people. I started my career designing hardware and writing C code 10 years ago,
-                however most of my work has been in full stack software engineering
-                with a lean towards TypeScript/Node/React/AWS and some devops/data science sprinkled in.
+                in search of work. I started my career designing hardware and writing C code 10 years ago,
+                however most of my work has been in full stack software engineering. My experience is quite diverse - 
+                I have led development teams, built a successful consulting business, brought multiple products to market
+                and have delivered consistent quality work for fast-growing tech companies.
                 <br/>
                 <br/>
                 I live by three core principles:
@@ -65,13 +66,11 @@ export default function Home() {
                 #3 Quality OR Speed is a false dichotomy. Quality IS Speed 
                 <br/>
                 <br/>
-                My current side projects include implementing machine learning papers in
-                WebGPU and writing a graphics programming language in Rust/WebGPU (see PAL for details).
+                My current side project revolves around machine learning and programming language design.
+                Im using Rust/WebGPU and LLMs to create a human-AI pair programming environment. I love using AI
+                to solve real world problems for real world businesses while steering clear of gimmicks or hype.
                 <br/><br/>
-                I am looking for a long term position in EU/US/Canada. Because I am a dual citizen of 
-                Canada and Romania, I have spent an equal amount of time working on both continents
-                and I will relocate without issue. I dont have a preference. I can also work in the US on a TN authorization.
-                My resume can be found <a href="/resume.pdf">here</a>.
+                My resume can be found <a href="/resume.pdf">here</a>. I am in search of the next big project.
             </p>
             <p>last update on {LAST_UPDATE}</p>
           </section>
