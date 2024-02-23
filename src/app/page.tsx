@@ -67,8 +67,7 @@ export default function Home() {
                 <br/>
                 <br/>
                 My current side project revolves around machine learning and programming language design.
-                Im using Rust/WebGPU and LLMs to create a human-AI pair programming environment. I love using AI
-                to solve real world problems for real world businesses while steering clear of gimmicks or hype.
+                Im using Rust/WebGPU and LLMs to create a human-AI pair programming environment.
                 <br/><br/>
                 My resume can be found <a href="/resume.pdf">here</a>. I am in search of the next big project.
             </p>
