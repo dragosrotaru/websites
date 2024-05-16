@@ -47,14 +47,20 @@ export default function Home() {
           <section id="here-and-now">
             <h2>Here and Now 🧘</h2>
             <p>
-                Howdy! I am a software engineer and entrepreneur. My experience is diverse - 
-                I have built a consulting business, led engineering teams, brought products to market
-                and delivered quality work for fast-growing tech companies as an individual contributor.
+                Howdy! My name is Dragos and I am a Canadian-Romanian software engineer and entrepreneur.
+                My experience is diverse - I have built a consulting business, led engineering teams, brought products to market
+                and delivered quality work for silicon valley tech as an individual contributor.
                 I have also lived all over the world, From Japan to Romania to Canada and have a deep appreciation
-                for international culture and business. Now, I am working to expand our family run Accounting firm,
-                while investing in tech startups and building my own projects.
+                for international culture and business. I believe we need more entrepreneurship to make the country
+                livable for young Canadians and immigrants, so I am working diligently to make that happen. I strive to 
+                form international partnerships to help spread wealth and ensure freedom from tyranny,
+                especially in less developed places like eastern europe. 
+                <br/><br/><br/>
+                I want to help you fund your startup, find 
+                your founding team, build your product, bring it to new markets and feed your family. I like people who
+                are passionate about their work and I am always looking for new opportunities to support their growth.
                
-                My software resume can be found <a href="/resume.pdf">here</a>.
+                My developer oriented resume can be found <a href="/resume.pdf">here</a>.
             </p>
             <p>last update on {LAST_UPDATE}</p>
           </section>
