@@ -47,29 +47,14 @@ export default function Home() {
           <section id="here-and-now">
             <h2>Here and Now 🧘</h2>
             <p>
-                Howdy! I am a product driven software engineer and former co-founder
-                in search of work. I started my career designing hardware and writing C code 10 years ago,
-                however most of my work has been in full stack software engineering. My experience is quite diverse - 
-                I have led development teams, built a successful consulting business, brought multiple products to market
-                and have delivered consistent quality work for fast-growing tech companies.
-                <br/>
-                <br/>
-                I live by three core principles:
-                <br/>
-                <br/>
-                #1 a great company culture supersedes a great mission
-                <br/>
-                <br/>
-                #2 the hardest problems in tech are almost always people problems
-                <br/>
-                <br/>
-                #3 Quality OR Speed is a false dichotomy. Quality IS Speed 
-                <br/>
-                <br/>
-                My current side project revolves around machine learning and programming language design.
-                Im using Rust/WebGPU and LLMs to create a human-AI pair programming environment.
-                <br/><br/>
-                My resume can be found <a href="/resume.pdf">here</a>. I am in search of the next big project.
+                Howdy! I am a software engineer and entrepreneur. My experience is diverse - 
+                I have built a consulting business, led engineering teams, brought products to market
+                and delivered quality work for fast-growing tech companies as an individual contributor.
+                I have also lived all over the world, From Japan to Romania to Canada and have a deep appreciation
+                for international culture and business. Now, I am working to expand our family run Accounting firm,
+                while investing in tech startups and building my own projects.
+               
+                My software resume can be found <a href="/resume.pdf">here</a>.
             </p>
             <p>last update on {LAST_UPDATE}</p>
           </section>
