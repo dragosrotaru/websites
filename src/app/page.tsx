@@ -53,8 +53,7 @@ export default function Home() {
                 <br/><br/>
                 My life philosophy is centered around lifelong experiential learning and long term investment into people.
                 Ive lived in 7+ countries and countless cities to build relationships and gain insight into markets abroad.
-                Now I am doubling down on the Canadian tech scene to create a better future for Canadians and the rest of the world by building
-                my own companies and helping others to do the same right here at home.
+                Now I am doubling down on Canada by building my own companies and helping others to do the same mostly here at home.
                 <br/><br/>
                 If youre an entrepreneur, I want to help you get funding, find 
                 your team, build your product and leverage international opportunities. I am super happy to meet with people who
