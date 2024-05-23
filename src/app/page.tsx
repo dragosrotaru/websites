@@ -47,20 +47,23 @@ export default function Home() {
           <section id="here-and-now">
             <h2>Here and Now 🧘</h2>
             <p>
-                Howdy! My name is Dragos and I am a Canadian-Romanian software engineer and entrepreneur.
-                My experience is diverse - I have built a consulting business, led engineering teams, brought products to market
-                and delivered quality work for silicon valley tech as an individual contributor.
-                I have also lived all over the world, From Japan to Romania to Canada and have a deep appreciation
-                for international culture and business. I believe we need more entrepreneurship to make the country
-                livable for young Canadians and immigrants, so I am working diligently to make that happen. I strive to 
-                form international partnerships to help spread wealth and ensure freedom from tyranny,
-                especially in less developed places like eastern europe. 
+                Howdy, Im Dragos - a Canadian-Romanian immigrant, polymath, software engineer, entrepreneur and investor.
+                I spent the last 10 years with high growth bay area startups, cofounding a waterloo startup,
+                launching hardware/software products and growing our family run accounting/tech firm in the Waterloo-Toronto-Montreal corridor.
+                My life philosophy is centered around non-stop experiential learning and long term investment into people.
+                Ive lived in 7+ countries and countless cities to form relationships and gain insight into foreign markets and cultures.
+                Now I am doubling down on the Canadian tech scene to create a better future for Canadians and the rest of the world by building
+                my own companies and helping others do the same. 
                 <br/><br/><br/>
-                I want to help you fund your startup, find 
-                your founding team, build your product, bring it to new markets and feed your family. I like people who
-                are passionate about their work and I am always looking for new opportunities to support their growth.
+                If youre an entrepreneur, I want to help you get funding, find 
+                your team, build your product and leverage international opportunities. I am always happy to meet with people who
+                are passionate about their work and I am always on the look out for opportunities to support your vision.
+                <br/><br/><br/>
+                I cast a very wide net when it comes to my interests – my current obsessions include international tax, psychedelic medicine,
+                AI/ML, housing and the future of work. When Im not writing code, reading or looking at spreadsheets I like to highline, climb,
+                and ski. You can find me at burning man, on the road in my converted school bus or solo long distance fast-packing around the world.
                
-                My developer oriented resume can be found <a href="/resume.pdf">here</a>.
+                My software engineer resume can be found <a href="/resume.pdf">here</a>.
             </p>
             <p>last update on {LAST_UPDATE}</p>
           </section>
