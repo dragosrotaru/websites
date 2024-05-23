@@ -50,15 +50,16 @@ export default function Home() {
                 Howdy, Im Dragos - a Canadian-Romanian immigrant, polymath, software engineer, entrepreneur and investor.
                 I spent the last 10 years with high growth bay area startups, cofounding a waterloo startup,
                 launching hardware/software products and growing our family run accounting/tech firm in the Waterloo-Toronto-Montreal corridor.
-                My life philosophy is centered around non-stop experiential learning and long term investment into people.
-                Ive lived in 7+ countries and countless cities to form relationships and gain insight into foreign markets and cultures.
+                <br/><br/>
+                My life philosophy is centered around lifelong experiential learning and long term investment into people.
+                Ive lived in 7+ countries and countless cities to build relationships and gain insight into markets abroad.
                 Now I am doubling down on the Canadian tech scene to create a better future for Canadians and the rest of the world by building
-                my own companies and helping others do the same. 
-                <br/><br/><br/>
+                my own companies and helping others to do the same right here at home.
+                <br/><br/>
                 If youre an entrepreneur, I want to help you get funding, find 
-                your team, build your product and leverage international opportunities. I am always happy to meet with people who
-                are passionate about their work and I am always on the look out for opportunities to support your vision.
-                <br/><br/><br/>
+                your team, build your product and leverage international opportunities. I am super happy to meet with people who
+                are passionate about their work and look out for opportunities to support their vision.
+                <br/><br/>
                 I cast a very wide net when it comes to my interests – my current obsessions include international tax, psychedelic medicine,
                 AI/ML, housing and the future of work. When Im not writing code, reading or looking at spreadsheets I like to highline, climb,
                 and ski. You can find me at burning man, on the road in my converted school bus or solo long distance fast-packing around the world.
