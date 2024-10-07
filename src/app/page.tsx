@@ -47,23 +47,13 @@ export default function Home() {
           <section id="here-and-now">
             <h2>Here and Now 🧘</h2>
             <p>
-                Howdy, Im Dragos - a Canadian-Romanian immigrant, polymath, software engineer, entrepreneur and investor.
-                I spent the last 10 years with high growth bay area startups, cofounding a waterloo startup,
-                launching hardware/software products and growing our family run accounting/tech firm in the Waterloo-Toronto-Montreal corridor.
+                Howdy, Im Dragos - a Canadian software engineer and founder looking for work.
+                I spent the last decade with high growth startups as well as cofounding a waterloo startup,
+                launching hardware/software products and growing a business.
                 <br/><br/>
-                My life philosophy is centered around lifelong experiential learning and long term investment into people.
-                Ive lived in 7+ countries and countless cities to build relationships and gain insight into markets abroad.
-                Now I am doubling down on Canada by building my own companies and helping others to do the same mostly here at home.
-                <br/><br/>
-                If youre an entrepreneur, I want to help you get funding, find 
-                your team, build your product and leverage international opportunities. I am super happy to meet with people who
-                are passionate about their work and look out for opportunities to support their vision.
-                <br/><br/>
-                I cast a very wide net when it comes to my interests – my current obsessions include international tax, psychedelic medicine,
-                AI/ML, housing and the future of work. When Im not writing code, reading or looking at spreadsheets I like to highline, climb,
-                and ski. You can find me at burning man, on the road in my converted school bus or solo long distance fast-packing around the world.
+                When Im not working, I like to highline, climb, and ski. You can find me at burning man, on the road in my converted school bus or long distance hiking.
                
-                My software engineer resume can be found <a href="/resume.pdf">here</a>.
+                My resume can be found <a href="/resume.pdf">here</a>.
             </p>
             <p>last update on {LAST_UPDATE}</p>
           </section>

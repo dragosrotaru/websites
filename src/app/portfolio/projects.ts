@@ -12,6 +12,14 @@ export type Project = {
 
 export const Projects: Project[] = [
   {
+    title: "ALR CPA",
+    description: `
+        Built and launched customer success web platform. Updated  hiring process, policies and remote employee support, making 4 successful new hires. Improved SEO, content marketing and launched new analytics, drastically improving web vitals/lighthouse scores. Improved SOPs and infrastructure towards SOC 2 audit. Implemented CRM, sales process and content marketing strategy with AI.
+    `,
+    image: "rotaru-cpa.png",
+    imageAlt: "ALR Accounting Logo",
+  },
+  {
     title: "PAL Programming Language",
     description: `PAL is a long term Human-AI pair programming languge / IDE research project,
     involving Neurosymbolic AI, HCI, programming language design and knowledge representation.
@@ -23,7 +31,7 @@ export const Projects: Project[] = [
       url: "https://github.com/dragosrotaru/pal",
       title: "repo",
       color: "purple",
-    }
+    },
   },
   {
     title: "Anytype",
@@ -36,8 +44,8 @@ export const Projects: Project[] = [
     button: {
       title: "website",
       url: "https://anytype.io",
-      color: "yellow"
-    }
+      color: "yellow",
+    },
   },
   {
     title: "Qualio",
@@ -80,8 +88,8 @@ export const Projects: Project[] = [
     button: {
       title: "website",
       color: "blue",
-      url: "https://www.dieboldnixdorf.com/en-us/"
-    }
+      url: "https://www.dieboldnixdorf.com/en-us/",
+    },
   },
   {
     title: "Ping",
@@ -211,8 +219,8 @@ export const Projects: Project[] = [
     button: {
       title: "website",
       url: "https://equina.io/",
-      color: "red"
-    }
+      color: "red",
+    },
   },
   {
     title: "MowGoSnowGo",
@@ -243,14 +251,5 @@ export const Projects: Project[] = [
     `,
     image: "hexigent-consulting.png",
     imageAlt: "Hexigent Consulting Logo",
-  },
-  {
-    title: "ALR Accounting",
-    description: `
-        Before my software career I worked part time at an accounting firm for 5 years,
-        fulfilling IT Admin and bookkeeping duties.
-    `,
-    image: "alr.png",
-    imageAlt: "ALR Accounting Logo",
   },
 ];
